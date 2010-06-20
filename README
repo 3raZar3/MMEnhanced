@@ -1,0 +1,15 @@
+Setup notes:
+
+1.) Create two new databases, one for the minimanager (i.e. mmdb) and one for the forum (i.e. phpbb3)
+2.) navigate to the SQL folder and source the two SQL files to their proper DBs
+3.) navigate to the 'forum/central_config' folder and edit dbconf.php to reflect your server information
+4.) make sure your WoW server is running
+5.) login to your website @ sitename.com/minimanager/
+6.) to access the forums with administrative access use Administrator/administrator
+7.) login to the forums as a regular user by using the login information to any account on your game server, 
+the forums will automatically add that account as a registered user... if you want one of those accounts to have admin
+access in the forums be sure to login as admin and set it accordingly.
+
+
+future releases will include a CMS-sytel interface for the minimanager and possibly a new armory.
+-3raZar3
