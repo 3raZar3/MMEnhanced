@@ -26,7 +26,7 @@ function login_wow(&$username, &$password)
         );
 
     // Connect to the MaNGOS logon database
- 	include($phpbb_root_path . '../central_config/dbconf.php');	
+ 	include($phpbb_root_path . '/central_config/dbconf.php');	
     $conn = new mysqli($sqlhost, $sqluser, $sqlpass, $realmdb);
     // Build the query
     $query = "SELECT id, username, sha_pass_hash, email FROM account WHERE username = '%s'";
