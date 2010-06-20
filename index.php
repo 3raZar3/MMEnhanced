@@ -1,6 +1,6 @@
 <?php
 
-
+include 'forum/central_config/dbconf.php';
 require_once 'header.php';
 require_once 'libs/bbcode_lib.php';
 require_once 'libs/char_lib.php';

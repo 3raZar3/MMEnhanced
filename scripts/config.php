@@ -26,7 +26,6 @@ $show_version['svnrev_lvl']  = '5';    // Minimum account level to show SVN Revi
 
 //#############################################################################
 //---- SQL Configuration ----
-include '/forum/central_config/dbconf.php';
 //  SQL server type  :
 //  'MySQL'   - Mysql
 //  'PgSQL'   - PostgreSQL
